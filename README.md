@@ -27,10 +27,10 @@ Create a router file named birds.js in the app directory, with the following con
 
 Then, load the router module in the app:
 
-var birds = require('./birds')
+    var birds = require('./birds')
 
-// ...
+    // ...
 
-app.use('/birds', birds)
+    app.use('/birds', birds)
 
 The app will now be able to handle requests to /birds and /birds/about, as well as call the timeLog middleware function that is specific to the route.
